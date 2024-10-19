@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: 100;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+.container {
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.newTask-input {
+    margin-top: 10px;
+    width: 80%;
+    padding: 5px 10px;
+}
+
+button {
+    border-color: aquamarine;
+    background-color: rgb(44, 121, 95);
+}
+
+ul {
+    border: 1px solid rgb(0, 4, 255);
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(156, 168, 168);
+    min-height: 350px;
+}
+
+li {
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(70, 85, 150);
+
+}
+
+/* .checkbox {
+    background-color: #000000;
+} */
+.custom-checkbox:focus:not(:checked)+label::before {
+    border-color: #ff0000;
+}
+
+.done {
+    text-decoration: line-through;
+}
